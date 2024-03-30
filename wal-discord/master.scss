@@ -817,19 +817,19 @@ body {
   color: rgba($syntaxOne, 0.7) !important;
 }
 
-// users
-.username-h_Y3Us {
-  color: mix($color9, $color1, 50%) !important;
-  //filter: saturate(var(--value,2));
-  font-weight: 900;
-  font-family:
-    JetBrainsMono Nerd Font,
-    medium;
-  background-color: $color14;
+.username__0b0e7 {
+  background-color: mix($color0, $color7, 90%);
+  border-radius: 5px;
+  padding: 3px;
+  font-family: Ubuntu Nerd Font !important;
+  color: $color12 !important;
   border-radius: 5px;
   padding-left: 3px;
   padding-right: 3px;
 }
+// users
+// .username-h_Y3Us {
+// }
 .icon-2W8DHg {
   display: none;
 }
@@ -1115,7 +1115,7 @@ section.contentWrapper-2f9yME {
 div.wrapper-22rqw6 {
   background-color: mix($color0, $color6, 90%);
 }
-div.contentWrapper__321ed {
+div.contentWrapper_e0bb2c {
   background-color: mix($color0, $color6, 90%);
 }
 
@@ -1166,4 +1166,26 @@ div.reactionTooltip__9384a {
 }
 .userProfileInnerThemedNonPremium__3d0a6 {
   background-color: mix($color0, $color6, 90%) !important;
+}
+.menu__088f7 {
+  background-color: mix($color0, $color6, 90%) !important;
+}
+.cozy_f5c119 .contents_d3ae0d {
+  color: $color0 !important;
+}
+.popout_174.theme-dark.layer__6b5c3 {
+  background-color: $color0 !important;
+}
+.full-motion .translate__02873.didRender__7e24c {
+  background-color: $color0 !important;
+  background-color: var(--background-message-hover);
+  border-radius: 5px;
+}
+.fade_d2e09a {
+  background-color: mix($color6, $color0, 60%) !important;
+  border-radius: 20px;
+}
+.tooltipPrimary__51b23 {
+  border-radius: 20px;
+  background-color: $color0 !important;
 }
