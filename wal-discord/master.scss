@@ -30,7 +30,15 @@
   background-color: $foreground !important;
 }
 
+.theme-dark .rootWithShadow_d20cd6,
+.theme-light .rootWithShadow_d20cd6 {
+  background-color: $color4 !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
 .theme-dark {
+  /* background-color: $color1; */
   --colortransparency: #0003;
 
   /* Cards */
@@ -68,27 +76,33 @@
 //background transparency
 .appMount-3lHmkl,
 body {
-  background-color: rgba(50, 50, 50, 0.2) !important;
+  background-color: rgba(30, 30, 30, 0.4) !important;
 }
+
 // inbox
 .recentMentionsPopout__826a9 {
   background-color: mix($color0, $color4, 50%) !important;
 }
+
 //  login screen
 .theme-dark.authBox-hW6HRx {
   background: $bg !important;
 }
+
 .lookLink-9FtZy-.colorBrand-3pXr91 {
   color: $colorAccent !important;
 }
+
 .input-cIJ7To.focused-1mmYsC,
 .input-cIJ7To:focus {
   border-color: $colorAccent !important;
 }
+
 //  private call
 .wrapper-2qzCYF.minimum-28Z35l {
   background-color: $bg !important;
 }
+
 .centerButton-3CaNcJ {
   background: $bg;
 }
@@ -97,11 +111,13 @@ body {
 .container-PNkimc {
   background-color: $bgDarker !important;
 }
+
 //  discord icon
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
   background-color: $colorAccent !important;
 }
+
 .item-2hkk8m {
   background-color: $colorAccent !important;
 }
@@ -116,6 +132,7 @@ body {
 .nameUnreadVoice-EVo-wI {
   color: $colorUrgent !important;
 }
+
 .numberBadge-2s8kKX {
   background-color: $colorUrgent !important;
 }
@@ -168,6 +185,7 @@ body {
 //  avatar container
 .container-2Thooq {
   background-color: $bgDarker !important;
+
   //  buttons
   .horizontal-1ae9ci button {
     fill: $colorAccent !important;
@@ -194,22 +212,27 @@ body {
 .attachButtonPlus-rUdX-B {
   fill: $colorAccent !important;
 }
+
 //  nitro
 //  nitro page
 .scroller-9moviB {
   background-color: $bg !important;
 }
+
 //  nitro gift button color
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
   background-color: $bgDarker !important;
 }
+
 //  nitro gift popup
 .theme-dark .root-1gCeng {
   background-color: $bg !important;
 }
+
 .theme-dark .footer-3rDWdC {
   background-color: $bg !important;
 }
+
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
   color: rgba($colorAccent, 0.8) !important;
   border-color: rgba($colorAccent, 0.2) !important;
@@ -241,34 +264,42 @@ body {
 //  divider is what displays the date for older messages
 .messages .divider,
 .divider-3gKybi {
-  & > span {
+  &>span {
     background-color: $bg !important;
   }
+
   &:not(.red) div {
     background: rgba($colorAccent, 0.3) !important;
   }
+
   &:not(.red) span {
     color: rgba($colorAccent, 0.6) !important;
   }
+
   &.divider-red {
-    & > span {
+    &>span {
       color: $colorUrgent !important;
     }
-    & > div {
+
+    &>div {
       background: $colorUrgent !important;
     }
   }
 }
+
 .isUnread-3Ef-o9 {
   border-color: $colorUrgent !important;
 }
+
 .unreadPill-2HyYtt {
   background-color: $colorUrgent !important;
 }
+
 .unreadPillCapStroke-7rkHbg {
   color: $colorUrgent !important;
   fill: $colorUrgent !important;
 }
+
 //  reaction menu
 .wrapper-2aW0bm {
   background-color: $bg !important;
@@ -279,6 +310,7 @@ body {
 .newMessagesBar-mujexs {
   background-color: rgba($colorUrgent, 0.9) !important;
 }
+
 // date fix
 .isUnread-3Ef-o9 .content-1o0f9g {
   color: $fg !important;
@@ -292,19 +324,23 @@ body {
 }
 
 .message-group {
+
   // message text
   .markup,
   .markup-2BOw-j {
     color: $fg !important;
+
     //  for code within single backquotes
     code.inline {
       background-color: $bg !important;
     }
+
     //  for codeblocks (triple backquotes)
     pre {
       code {
         background-color: $bg !important;
       }
+
       border-color: $bg !important;
     }
   }
@@ -317,20 +353,24 @@ body {
   //  message with user mention
   .mentioned .message-text {
     background-color: rgba($colorUrgent, 0.1) !important;
+
     &:after {
       background: transparent !important;
       border-left-color: $colorUrgent !important;
     }
   }
 }
+
 //  user mention fix
 .wrapper-3WhCwL {
   color: rgba($colorUrgent, 0.8) !important;
 }
+
 //  mentioned background
 .mentioned-xhSam7 {
   background-color: rgba($colorUrgent, 0.1) !important;
 }
+
 .mentioned-xhSam7:before {
   background-color: $colorUrgent !important;
 }
@@ -339,9 +379,11 @@ body {
 .members-1998pB {
   background-color: $bgDarker !important;
 }
+
 .sidebar-2K8pFh {
   background: $bg !important;
 }
+
 .selected-aXhQR6 .layout-2DM8Md {
   background-color: rgba($colorAccent, 0.2) !important;
 }
@@ -354,10 +396,12 @@ body {
 //  title bar
 .title-3qD0b- {
   background-color: $bgDarker !important;
+
   .search-bar {
     background-color: rgba($colorAccent, 0.2) !important;
   }
 }
+
 .container-1r6BKw.themed-ANHk51 {
   background: $bg !important;
 }
@@ -368,17 +412,20 @@ body {
 .wrapper-1Rf91z {
   background-color: $bgDarker !important;
 }
+
 .guilds-add,
 .circleIconButton-jET_ig {
   border: 1px dashed rgba($colorAccent, 0.3) !important;
   background: inherit !important;
   color: rgba($colorAccent, 0.4) !important;
 }
+
 .guild .guild-inner,
 .guild-1EfMGQ .guild-inner,
 .container-2td-dC .wrapper-2lTRaf {
   background: inherit !important;
 }
+
 .guild.unread:before,
 .guild-1EfMGQ.unread-qLkInr:before,
 .wrapper-232cHJ {
@@ -395,6 +442,7 @@ body {
 //  server menu
 .menu-Sp6bN1 {
   background: $bg !important;
+
   .separator-2zcjq8 {
     background: rgba($colorAccent, 0.4) !important;
   }
@@ -403,24 +451,29 @@ body {
 //  pinned messages
 .messagesPopoutWrap-1MQ1bW {
   background-color: $bgDarker !important;
+
   //  header
   .header-ykumBX {
     background: $bg !important;
   }
+
   //  footer
   .footer-1kmXd4 {
     background: $bg !important;
   }
+
   //  pinned message view
   .messagesPopout-24nkyi .message-group {
     @extend .message-group;
     background-color: $bg !important;
+
     //  jump
     .actionButtons-1sUUug .jumpButton-3DTcS_ {
       background-color: rgba($colorHighlight, 0.6) !important;
     }
   }
 }
+
 //  notification
 .iconBadge-qZ4Ksk {
   background-color: $colorUrgent !important;
@@ -435,13 +488,16 @@ body {
 .scroller-wrap .scroller,
 .scroller-wrap .scroller-2FKFPG,
 .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG {
+
   &::-webkit-scrollbar-thumb,
   &::-webkit-scrollbar-track-piece {
     border-color: $bg !important;
   }
+
   &::-webkit-scrollbar-thumb {
     background-color: $bg !important;
   }
+
   &::-webkit-scrollbar-track-piece {
     background-color: $bg !important;
   }
@@ -450,12 +506,15 @@ body {
 //  firefox scrollbars
 .scrollbar-2rkZSL {
   background-color: $bgDarker !important;
+
   .track-1JN30G {
     background-color: $bgDarker !important;
   }
+
   .pad-29zQak {
     background-color: $bgDarker !important;
   }
+
   .thumb-2JwNFC {
     background-color: rgba($colorAccent, 0.1) !important;
   }
@@ -467,11 +526,13 @@ body {
 .channel-2QD9_O.selected-1HYmZZ a {
   background: rgba($colorAccent, 0.2) !important;
 }
+
 //  box on hover
 .channel:hover a,
 .channel-2QD9_O:hover a {
   background: rgba($colorAccent, 0.1) !important;
 }
+
 // create dm popup
 .theme-dark .modal-yWgWj- {
   background-color: $bg !important;
@@ -481,23 +542,28 @@ body {
 #friends,
 .container-3gCOGc {
   background-color: $bg !important;
+
   //  title bar
   .headerBar-UHpsPw {
     background: $bgDarker !important;
   }
+
   .friends-table,
   .friendsTable-133bsv {
     background-color: $bg !important;
+
     .friends-row:hover,
     .friendsRow-2yicud:hover {
       background-color: rgba($colorHighlight, 0.1) !important;
     }
+
     .friends-row,
     .friendsRow-2yicud {
       .friends-column-actions .friends-action {
         background-color: rgba($colorHighlight, 0.1) !important;
       }
     }
+
     .friends-row,
     .friendsRow-2yicud {
       .friends-column-actions .friends-action:hover {
@@ -512,6 +578,7 @@ body {
 .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG {
   background: $bg !important;
 }
+
 .theme-dark .container-1D34oG {
   background-color: $bg !important;
 }
@@ -519,14 +586,17 @@ body {
 //  quick switcher (ctrl + k)
 .quickswitcher-3JagVE {
   background-color: $bg !important;
+
   //  input
   .input-2VB9rf {
     background-color: rgba($colorAccent, 0.1) !important;
   }
+
   //  focused search result
   .resultFocused-3aIoYe {
     background-color: rgba($colorAccent, 0.2) !important;
   }
+
   .keybindShortcut-1BD6Z1 span {
     background-color: $colorUrgent !important;
     box-shadow: inset 0 -4px 0 rgba($colorAccent, 0.6) !important;
@@ -536,36 +606,46 @@ body {
 //  search popup with help
 .searchPopout-1vUlP3 {
   background-color: $bgDarker !important;
+
   //  background on hover
   .option-96V44q.selected-rZcOL- {
     background-color: rgba($colorAccent, 0.1) !important;
   }
 }
+
 .theme-dark .container-3ayLPN {
   background-color: $bg !important;
 }
+
 .theme-dark .focused-2bY0OD {
   background-color: $bgDarker !important;
 }
+
 .theme-dark .dim-1l4L4y span {
   background-color: $bg !important;
 }
+
 .theme-dark .option-96V44q.selected-rZcOL- {
   background-color: $bgDarker;
 }
+
 .theme-dark .option-96V44q:after {
   background: linear-gradient(90deg, rgba(54, 57, 63, 0), $bg 80%);
 }
+
 .theme-dark .option-96V44q.selected-rZcOL-:after {
   background: linear-gradient(90deg, rgba(54, 57, 63, 0), $bgDarker 80%);
 }
+
 .theme-dark .elevationBorderHigh-2WYJ09 {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 //  auto-complete popup when mentioning users
 .autocomplete-1vrmpx {
   background-color: $bgDarker !important;
+
   //  on hover
   .selectorSelected-1_M1WV {
     background-color: rgba($colorHighlight, 0.1) !important;
@@ -578,10 +658,12 @@ body {
 .headerNormal-T_seeN {
   background-color: $colorAccent !important;
 }
+
 .body-3iLsc4,
 .footer-1fjuF6 {
   background-color: $bgDarker !important;
 }
+
 //  send dm from popout
 .quickMessage-1yeL4E {
   background-color: rgba($colorAccent, 0.1) !important;
@@ -590,17 +672,21 @@ body {
 //  right-click
 .theme-dark.contextMenu-HLZMGh {
   background-color: $bgDarker !important;
+
   //  things like "Add Reaction"
   .itemSubMenu-1vN_Yn {
     background-color: inherit !important;
   }
+
   //  divider
   .itemGroup-1tL0uz {
     border-color: rgba($colorAccent, 0.05) !important;
   }
+
   //  volume slider in user popup
   .bar-2Qqk5Z {
     background-color: $bg !important;
+
     .barFill-23-gu- {
       background-color: $colorAccent !important;
     }
@@ -610,39 +696,46 @@ body {
 //  search
 .search-results-wrap {
   background-color: $bgDarker !important;
+
   .search-header {
     background-color: inherit !important;
   }
+
   .channel-separator {
     .channel-name {
       background-color: $bgDarker !important;
     }
+
     &:before {
       border-color: rgba($colorAccent, 0.2) !important;
     }
   }
+
   .search-result {
+
     &:before,
     &:after {
-      background-image: linear-gradient(
-        0deg,
-        rgba($colorAccent, 0),
-        $bgDarker
-      ) !important;
+      background-image: linear-gradient(0deg,
+          rgba($colorAccent, 0),
+          $bgDarker ) !important;
     }
+
     &.expanded .search-result-message.hit {
       background-color: $bg !important;
       border-bottom: 2px solid $bg !important;
       border-top: 2px solid $bg !important;
     }
+
     .search-result-message.hit {
       border: 2px solid $bg !important;
     }
+
     .hit {
       background-color: $bg !important;
       box-shadow: 0 0 10px 6px $bg !important;
     }
   }
+
   .action-buttons .jump-button {
     background-color: rgba($colorAccent, 0.8) !important;
   }
@@ -652,9 +745,11 @@ body {
 .contextMenu-HLZMGh {
   background-color: $bgDarker !important;
 }
+
 .itemGroup-1tL0uz {
   border-color: $bg !important;
 }
+
 .colorDefault-2K3EoJ.focused-3afm-j,
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
   background-color: $colorHighlight !important;
@@ -664,12 +759,15 @@ body {
 .theme-light .action-1lSjCi {
   background: $bgDarker !important;
 }
+
 .header-3ZP1MY {
   color: #fff !important;
 }
+
 .colorStandard-2KCXvj {
   color: #dcddde !important;
 }
+
 .sampleLink-KPFu3I {
   color: $colorHighlight !important;
 }
@@ -678,6 +776,7 @@ body {
 .theme-dark .uploadModal-2ifh8j {
   background-color: $bg !important;
 }
+
 .theme-dark .footer-3mqk7D {
   background-color: $bg !important;
 }
@@ -691,6 +790,7 @@ body {
 .contentWrapper-2txmjs {
   background-color: $bg !important;
 }
+
 //  favourite tint
 .theme-dark .categoryFadeBlurple-1j72_A,
 .theme-light .categoryFadeBlurple-1j72_A {
@@ -707,15 +807,19 @@ body {
 .theme-light .tooltipBrand-g03Nz8 {
   background-color: rgba($colorAccent, 0.95) !important;
 }
+
 .introductionAction-M1r6AX {
   color: rgba($colorAccent, 0.8) !important;
 }
+
 .content-3O0wBS {
   background: $bg !important;
 }
+
 .content-3O0wBS .button-3zdF3z {
   color: $bg !important;
 }
+
 .theme-dark .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK,
 .theme-light .tooltipBrand-g03Nz8 .tooltipPointer-3ZfirK {
   border-top-color: rgba($colorAccent, 0.95) !important;
@@ -725,20 +829,25 @@ body {
 .contentRegionScroller-26nc1e {
   background-color: $bgDarker !important;
 }
+
 .sidebarRegionScroller-3MXcoP {
   background: $bgDarker !important;
 }
+
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g {
   border-color: $bg !important;
 }
+
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
   background-color: $colorAccent !important;
 }
+
 .theme-dark .codeRedemptionRedirect-1wVR4b {
   background-color: $bgDarker !important;
   border-color: $bgDarker !important;
 }
+
 .theme-dark .footer-3rDWdC {
   background-color: $bg !important;
 }
@@ -747,24 +856,31 @@ body {
 //  highlight
 .categoryPill-34fszg.selected-1dONk0 {
   background-color: rgba($colorHighlight, 0.6) !important;
-} //  search panel
+}
+
+//  search panel
 .searchPage-3GKAdT .search-1iTphC {
   background-color: $bgDarker !important;
 }
+
 .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus,
 .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus-within {
   border-color: rgba($colorHighlight, 0.6) !important;
 }
+
 //  language panel
 .css-1b86x2o-control {
   background-color: $bgDarker !important;
 }
+
 .css-9wh895-control {
   background-color: $bgDarker !important;
 }
+
 .css-123uooi-menu {
   background-color: $bgDarker !important;
 }
+
 //  verified icon
 .verified-1eC5dy {
   color: $colorHighlight !important;
@@ -781,15 +897,18 @@ body {
 .hljs-symbol {
   color: $syntaxOne !important;
 }
+
 .hljs-built_in,
 .hljs-deletion {
   color: $colorUrgent !important;
 }
+
 .hljs-addition,
 .hljs-keyword,
 .hljs-selector-tag {
   color: $syntaxTwo !important;
 }
+
 .hljs-attr,
 .hljs-attribute,
 .hljs-class .hljs-title,
@@ -798,6 +917,7 @@ body {
 .hljs-variable {
   color: $syntaxThree !important;
 }
+
 .hljs-doctag,
 .hljs-literal,
 .hljs-meta .hljs-meta-string,
@@ -806,6 +926,7 @@ body {
 .hljs-string {
   color: $colorAccent !important;
 }
+
 .hljs-name,
 .hljs-section,
 .hljs-selector-class,
@@ -813,20 +934,24 @@ body {
 .hljs-title {
   color: $colorHighlight !important;
 }
+
 .codeBlockLang-O_f4hr {
   color: rgba($syntaxOne, 0.7) !important;
 }
 
-.username__0b0e7 {
-  background-color: mix($color0, $color7, 90%);
+.username_ec86aa {
+  background-color: mix($color0, $color11, 80%);
   border-radius: 5px;
   padding: 3px;
   font-family: Ubuntu Nerd Font !important;
   color: $color12 !important;
-  border-radius: 5px;
-  padding-left: 3px;
-  padding-right: 3px;
+  // border-bottom-right-radius: 10px;
+  // border-bottom-left-radius: 10px;
+  // padding-bottom: 3px;
+  // padding-left: 5px;
+  // padding-right: 5px;
 }
+
 // users
 // .username-h_Y3Us {
 // }
@@ -839,26 +964,31 @@ svg.icon_eff5d4 {
   color: $color7 !important;
   -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>');
 }
+
 .linkTop-1W1aK6 {
   color: $color9 !important;
 }
+
 .listItem-3SmSlK {
   filter: blur(2px) brightness(1.2) contrast(0.7) sepia(1);
   border: none;
   //border-bottom: 4px solid $color2;
   //filter: hue-rotate(10deg);
 }
+
 .listItem-3SmSlK:hover {
   filter: brightness(1.2) contrast(0.7) sepia(0.1);
   //filter: hue-rotate(10deg);
   box-shadow: 0px 19px 57px 11px rgba(0, 0, 0, 0.3);
   border-radius: 120px;
 }
+
 .wrapper-3kah-n {
   transition:
     $color1 0.4s ease-out,
     $color5 0.4s ease-out;
 }
+
 //
 caption,
 cite,
@@ -889,6 +1019,7 @@ var {
   color: WHITE !important;
   vertical-align: baseline;
 }
+
 // span {
 //   filter: saturate(150%);
 // }
@@ -941,6 +1072,7 @@ s {
   font-weight: 300;
   // text-shadow: $color1 0 0 4px, $color2 0 0 1px, $color5 0 0 1px;
 }
+
 a {
   margin: 0;
   padding: 0;
@@ -959,6 +1091,7 @@ a {
     $color2 0 0 1px,
     $color5 0 0 1px;
 }
+
 code,
 dd,
 del,
@@ -977,20 +1110,21 @@ field {
   color: $color15 !important;
   vertical-align: baseline;
 }
+
 span {
   margin: 0;
   padding: 0;
   border: 0;
-  font-weight: inherit;
+  font-weight: 400;
   font-style: inherit;
-  font-family: inherit;
+  // font-family: Berkeley Mono Variable, monospace !important;
   font-size: 0.92em !important;
   color: $color15 !important;
   vertical-align: baseline;
   font-family:
-    JetBrainsMono Nerd Font,
-    medium !important;
+    JetBrainsMono Nerd Font !important;
 }
+
 acronym,
 address,
 applet,
@@ -1007,20 +1141,25 @@ body {
   color: $color11 !important;
   vertical-align: baseline;
 }
+
 a {
   color: var(--text-link);
   text-decoration: none;
   cursor: pointer;
 }
+
 a img {
   border: none;
 }
+
 .contextMenuContainer-1RO4DQ {
   background-color: $color2;
 }
+
 .contextMenuNub-NuTZ_U {
   background-color: $color2;
 }
+
 body {
   line-height: 1;
   margin: 0;
@@ -1033,13 +1172,16 @@ body {
   user-select: none;
   background: $color6;
 }
+
 p {
   margin: 14px 0;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 ::-webkit-input-placeholder,
 input,
 select,
@@ -1047,12 +1189,14 @@ textarea {
   font-family: var(--font-primary);
   font-weight: 400;
 }
+
 .message-2CShn3.selected-2LX7Jy,
 .mouse-mode.full-motion .message-2CShn3:hover {
   background-color: var(--background-message-hover);
   border-radius: 5px;
   color: $color1;
 }
+
 .markup-eYLPri .emoji.jumboable {
   width: 2rem;
   height: 2rem;
@@ -1078,7 +1222,13 @@ textarea {
   height: 3em;
   transition: 200ms cubic-bezier(0.2, 0.11, 0, 1);
 }
-.menu_dc52c6 {
+
+.menu_d90b3d {
+  background-color: mix($color0, $color6, 60%) !important;
+  border-radius: 5px;
+}
+
+.drawerSizingWrapper_af5dbb {
   background-color: mix($color0, $color6, 60%) !important;
   border-radius: 5px;
 }
@@ -1086,35 +1236,44 @@ textarea {
   background-color: mix($color0, $color6, 60%) !important;
   border-radius: 5px;
 }
+
 .contextMenu-1LsNXB {
   background-color: mix($color0, $color6, 60%);
   border-radius: 5px;
 }
+
 .buttonContainer-30ix0s {
   background-color: mix($color9, $color1, 50%);
   border-radius: 5px;
 }
+
 .animatorTop-3DwSmU {
   background-color: ($color0, $color6, 50%) !important;
   border-radius: 5px;
 }
-div.animatorRight__5895e {
-  background-color: mix($color9, $color1, 70%);
+
+.animatorRight__f88ae3 {
+  background-color: mix($color9, $color1, 70%) !important;
   border-radius: 5px;
 }
+
 .contentWrapper-3vHNP2 {
   background-color: mix($color1, $color9, 90%);
 }
+
 div.bodywrapper-1eSOtw {
   background-color: mix($color1, $color9, 90%);
 }
+
 section.contentWrapper-2f9yME {
   background-color: $color6;
   opacity: 0.8;
 }
+
 div.wrapper-22rqw6 {
   background-color: mix($color0, $color6, 90%);
 }
+
 div.contentWrapper_e0bb2c {
   background-color: mix($color0, $color6, 90%);
 }
@@ -1122,25 +1281,30 @@ div.contentWrapper_e0bb2c {
 // message-username-1166843237848338513
 .username_d30d99 {
   background-color: mix($color0, $color7, 90%);
-  border-radius: 5px;
+  border-bottom-right-radius: 50px;
   padding: 3px;
   font-family: Ubuntu Nerd Font !important;
   color: $color12 !important;
 }
+
 .wrapper__66cd5 {
   background-color: mix($color0, $color6, 90%);
 }
+
 .focusLock__10aa5 {
   background-color: mix($color0, $color6, 75%);
   border-radius: 5px;
 }
-.popout_446 {
-  background-color: mix($color0, $color6, 90%);
+
+.animatorRight_f88ae3 {
+  background-color: mix($color0, $color6, 90%) !important;
 }
+
 div.reactionTooltip__9384a {
   background-color: mix($color0, $color6, 90%);
   border-radius: 5px;
 }
+
 .markup_a7e664 .inline {
   color: $color12 !important;
   font-family: Terminess Nerd Font !important;
@@ -1149,6 +1313,7 @@ div.reactionTooltip__9384a {
     $color2 0 0 1px,
     $color5 0 0 1px;
 }
+
 .markup_a7e664 code {
   color: $color5 !important;
   background-color: $color1;
@@ -1158,37 +1323,71 @@ div.reactionTooltip__9384a {
     $color2 0 0 1px,
     $color5 0 0 1px;
 }
+
 .chatTarget__0ea5e {
   background-color: mix($color0, $color6, 75%) !important;
 }
+
 .tooltipPrimary_e5c00d {
   background-color: mix($color0, $color6, 90%) !important;
 }
+
 .userProfileInnerThemedNonPremium__3d0a6 {
   background-color: mix($color0, $color6, 90%) !important;
 }
+
 .menu__088f7 {
   background-color: mix($color0, $color6, 90%) !important;
 }
+
 .cozy_f5c119 .contents_d3ae0d {
   color: $color0 !important;
 }
+.animatorLeft_f88ae3 {
+  border-radius: 5px;
+  background-color: mix($color0, $color6, 90%) !important;
+}
+
+.focusLock_f9a4c9 {
+  border-radius: 5px;
+  background-color: mix($color0, $color6, 90%) !important;
+}
+
+.reactionTooltip_fba897 {
+  border-radius: 5px;
+  background-color: mix($color0, $color6, 90%) !important;
+}
+
+
+.tooltip_b6c360 {
+  border-radius: 5px;
+  background-color: mix($color0, $color6, 90%) !important;
+}
+
 .popout_174.theme-dark.layer__6b5c3 {
   background-color: $color0 !important;
 }
+
 .full-motion .translate__02873.didRender__7e24c {
   background-color: $color0 !important;
   background-color: var(--background-message-hover);
   border-radius: 5px;
 }
+
 .fade_d2e09a {
   background-color: mix($color6, $color0, 60%) !important;
   border-radius: 20px;
 }
+
 .tooltipPrimary__51b23 {
   border-radius: 20px;
   background-color: $color0 !important;
 }
+
 .recentMentionsPopout__40c54 {
   background-color: mix($color3, $color0, 20%) !important;
+}
+
+.wrapper_ef319f {
+  background-color: mix($color3, $color0, 10%) !important;
 }
